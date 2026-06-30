@@ -1,0 +1,21 @@
+schema_version: 1
+campaign:
+  title: "test4"
+  description: ""
+  instigator: "ohwjd"
+  language: "en"
+  license: "CC-BY-4.0"
+sources:
+  - id: "src-1"
+    kind: "mei-template"
+    path: "sources/score.mei"
+    template: "templates/score.template.mei"
+    header:
+      composer: ""
+fragmentation:
+  strategy: "whole"
+validation:
+  required_validations: 1
+  pass_threshold: 1
+locking:
+  stale_after_minutes: 120
